@@ -9,7 +9,8 @@ let resultString = ""
 switch (typeOfResult) {
     case "string":
         while (counter <= requestedValue) {
-            resultString += resultString + counter + "-)\n"
+            resultString += counter + "-)\n"
+            counter++
         }
 
         alert("Check the console!")
