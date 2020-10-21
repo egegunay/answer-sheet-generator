@@ -1,17 +1,26 @@
 'use strict';
 
-
+let resultString = "" 
 let counter = 1
-let resultString = ""
 
-function foo() {
-    let valueRead = parseInt(document.getElementById("input").value)
+function foo(x,y) {
+    while (counter <= x) {
+        resultString += counter + "-)\n"
+        counter++
+    }
+    y.innerHTML = resultString
+}
+
+/*function foo() {
+    inPut()
+    valueRead()
     while (counter <= valueRead) {
         resultString += counter + "-)\n"
         counter++
     }
-    document.getElementById("chngme").innerHTML = resultString
+    changeMe.innerHTML = resultString
     console.log(resultString)
+    console.log(counter)
 }
+*/
 
-document.getElementById("btn").addEventListener("click", foo())

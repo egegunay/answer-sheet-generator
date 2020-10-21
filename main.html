@@ -6,12 +6,13 @@
     <title>answer sheet generator</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
-<body style="background-color: black;">
+<body style="background: black;">
     <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
     <h1 class="hs" style="color:skyblue;">basic answer sheet generator.</h1>
-    <input class='input' placeholder= 'How long should it be?'/>
-    <button class="btn" id="btn">generate</button>
-    <h2 class="changeme" id="chngme">my coding skillz</h2>
+    <input class='input' id="input" placeholder= 'How long should it be?'/>
+    <button class="button" id="buttonid" onclick="foo(document.querySelector('.input').value, document.getElementById('changeme') )">generate</button>
+    <div style="background: black" >
+        <textarea class="changeme" id="changeme"></textarea>
+    </div>
 </body>
 </html>

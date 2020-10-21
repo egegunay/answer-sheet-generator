@@ -7,17 +7,13 @@ body {
 	grid-template-columns: auto;
 }
 
-.changeme{
-    visibility: hidden;
-}
-
 .hs{
 	font-family: Arial;
 	margin-top: 25vh;
 }
 
 .input,
-.btn {
+.button {
 	font-size: 1.3em;
 	padding: 5px 10px;
 }
@@ -37,7 +33,7 @@ body {
 	border: 2px solid #005fb8;
 }
 
-.btn{
+.button{
 	margin: 2% auto;
 	border: 2px solid #0485ff;
 	background: #000000;
@@ -45,11 +41,23 @@ body {
 	transition: 0.15s;
 }
 
-.btn:hover {
+.button:hover {
 	background: #2e2e2e;
     border-color: #016acc;
     cursor: pointer;
 }
+
+.changeme{
+	margin: auto;
+	border-radius: 4px 4px 4px 4px;
+	width: 30em;
+	text-align: center;
+	border: 2px solid #04b8ff;
+	background: #000000;
+    outline: none;
+    color: rgb(151, 151, 151);
+}
+
 
 @media only screen and (max-width: 600px) {
 	body {
@@ -63,8 +71,8 @@ body {
 		width: 100%;
 	}
 
-	.btn {
+	.button {
 		margin: 7% auto;
 		width: 100%;
-    }
+	}
 }
