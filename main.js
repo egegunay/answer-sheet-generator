@@ -4,11 +4,11 @@ let resultString = ""
 let counter = 1
 
 function foo(x,y) {
-    while (counter <= x) {
+    while (counter <= document.querySelector(x).value) {
         resultString += counter + "-)\n"
         counter++
     }
-    y.innerHTML = resultString
+    document.getElementById(y).innerHTML = resultString
 }
 
 /*function foo() {
