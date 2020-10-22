@@ -1,5 +1,20 @@
 'use strict';
+const button = document.getElementById("button");
+const input = document.getElementById("input");
+const changeme = document.getElementById("changeme");
 
+button.addEventListener("click", () => {
+  let resultString = "";
+  const count = Number(input.value);
+  if (Number.isNaN(count)) return;
+
+  for (let i=0; i < count; i++) {
+    resultString += `${i+1}-)\n`;
+  }
+  changeme.value = resultString;
+});
+
+/*
 let resultString = "" 
 let counter = 1
 
@@ -10,6 +25,7 @@ function foo(x,y) {
     }
     document.getElementById(y).innerHTML = resultString
 }
+*/
 
 /*function foo() {
     inPut()
@@ -23,4 +39,3 @@ function foo(x,y) {
     console.log(counter)
 }
 */
-
