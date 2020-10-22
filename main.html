@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" style="background: black;">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>answer sheet generator</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script defer src="./main.js"></script>
 </head>
-<body style="background: black;">
-    <script src="main.js"></script>
-    <h1 class="hs" style="color:skyblue;">basic answer sheet generator.</h1>
-    <input class='input' id="input" placeholder= 'How long should it be?'/>
-    <button class="button" id="buttonid" onclick="foo('.input', 'changeme')">generate</button>
-    <textarea class="changeme" id="changeme"></textarea>
+<body>
+    <div class="container">
+      <h1 class="heading">basic answer sheet generator</h1>
+      <input id="input" placeholder= 'How long should it be?'/>
+      <button id="button">generate</button>
+      <textarea id="changeme"/>
+    </div>
 </body>
 </html>
