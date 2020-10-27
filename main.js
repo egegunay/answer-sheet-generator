@@ -1,9 +1,10 @@
 'use strict';
-const button = document.getElementById("button");
+const generateButton = document.getElementById("generate");
+const copyButton = document.getElementById("copy");
 const input = document.getElementById("input");
 const changeme = document.getElementById("changeme");
 
-button.addEventListener("click", () => {
+generateButton.addEventListener("click", () => {
   let resultString = "";
   const count = Number(input.value);
   if (Number.isNaN(count)) return;
@@ -12,6 +13,12 @@ button.addEventListener("click", () => {
     resultString += `${i+1}-)\n`;
   }
   changeme.value = resultString;
+});
+
+copyButton.addEventListener("click", () => {
+  changeme.select();
+  changeme.setSelectionRange(0, 99999);
+  document.execCommand("copy");
 });
 
 /*
