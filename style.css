@@ -32,7 +32,7 @@ body {
   color: skyblue;
 }
 
-#input {
+#length {
   border-radius: 4px;
   font-size: 1.3rem;
   padding: .5rem;
@@ -42,11 +42,11 @@ body {
   color: #979797;
 }
 
-#input:focus {
+#length {
   border: 2px solid #005fb8;
 }
 
-.inner-container {
+.button-container {
   margin: 0;
 
   display: flex;
@@ -74,7 +74,7 @@ body {
   transition: 0.15s;
 }
 
-#changeme {
+#result {
   height: 100px;
   padding: .5rem;
   border-radius: 4px;
@@ -92,7 +92,7 @@ body {
   .heading {
     font-size: 1.3rem;
   }
-  #input, .button {
+  #length, .button {
     font-size: 1rem;
   }
 }
