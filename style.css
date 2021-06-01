@@ -7,8 +7,7 @@
 
 body {
   height: 100vh;
-  background-color: black;
-
+  background-color: #2E3440;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,21 +28,21 @@ body {
 .heading {   
   text-align: center;
   font-family: Arial;
-  color: skyblue;
+  color: #88C0D0;
 }
 
 #length {
   border-radius: 4px;
   font-size: 1.3rem;
   padding: .5rem;
-  border: 2px solid #04b8ff;
+  border: 2px solid #88C0D0;
   background: black;
   outline: none;
-  color: #979797;
+  color: #D8DEE9;
 }
 
 #length {
-  border: 2px solid #005fb8;
+  border: 2px solid #88C0D0;
 }
 
 .button-container {
@@ -59,7 +58,7 @@ body {
   padding: .5rem;
   font-size: 1.3rem;
 
-  border: 2px solid #0485ff;
+  border: 2px solid #88C0D0;
 
   background: black;
   color: white;
@@ -69,7 +68,7 @@ body {
 
 .button:hover {
   background: #2e2e2e;
-  border-color: #016acc;
+  border-color: #97dbee;
   cursor: pointer;
   transition: 0.15s;
 }
@@ -78,7 +77,7 @@ body {
   height: 100px;
   padding: .5rem;
   border-radius: 4px;
-  border: 2px solid #04b8ff;
+  border: 2px solid #88C0D0;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgb(255, 255, 255);

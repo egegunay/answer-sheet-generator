@@ -1,1 +1,1 @@
-The output will be smth like this: 1-) 2-) 3-)... made it for online exams
+The output will be something like this: 1-) 2-) 3-)... I made this for online exams.
