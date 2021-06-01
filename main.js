@@ -17,6 +17,5 @@ generateButton.addEventListener("click", () => {
 
 copyButton.addEventListener("click", () => {
   result.select();
-  result.setSelectionRange(0, Number(lengthInput.value));
   document.execCommand("copy");
 });
